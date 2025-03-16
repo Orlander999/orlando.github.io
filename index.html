@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星耀天际国际宇航</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">星耀天际国际宇航</div>
+            <div class="nav-links">
+                <a href="index.html" class="active">首页</a>
+                <a href="more.html">更多语料</a>
+                <span id="current-time"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 轮播图部分 -->
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="picture1.png" alt="航空航天1">
+                    <div class="slide-content">
+                        <h2>历久弥坚 源远流长</h2>
+                        <p>探索中国航空航天发展史</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="download.png" alt="航空航天2">
+                    <div class="slide-content">
+                        <h2>继往开来 一飞冲天</h2>
+                        <p>中国载人工程发展线</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="OIP-C.png" alt="航空航天3">
+                    <div class="slide-content">
+                        <h2>脚踏实地 开拓进取</h2>
+                        <p>中国行星探测工程</p>
+                    </div>
+                </div>
+            </div>
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div>
+
+<!-- 快速分类导航 -->
+<section class="quick-categories">
+    <h2>航天知识库</h2> <!-- 可选修改标题 -->
+    <div class="category-grid">
+        <!-- 技术原理 -->
+        <a href="#技术原理解析" class="category-item">
+            <i class="icon">🔬</i> <!-- 科学仪器图标 -->
+            <span>技术原理</span>
+        </a>
+
+        <!-- 航天名言 -->
+        <a href="#航天经典语录" class="category-item">
+            <i class="icon">📜</i> <!-- 卷轴图标 -->
+            <span>名言金句</span>
+        </a>
+
+        <!-- 语料库 -->
+        <a href="#航天语料库" class="category-item">
+            <i class="icon">📚</i> <!-- 书籍图标 -->
+            <span>语料精选</span>
+        </a>
+
+        <!-- 里程碑事件 -->
+        <a href="#重大里程碑" class="category-item">
+            <i class="icon">🏆</i> <!-- 奖杯图标 -->
+            <span>里程碑事件</span>
+        </a>
+    </div>
+</section>
+       <!-- 精选语料部分 -->
+<section class="featured-herbs">
+    <h2>Core Aerospace Corpus</h2>
+    <div class="herb-grid">
+
+        <!-- 技术原理：飞机飞行原理 -->
+        <div class="herb-card">
+            <h3>How does an aircraft generate lift?</h3>
+            <p>According to Bernoulli's principle, the curved upper surface of the wing accelerates airflow, creating lower pressure compared to the flat lower surface. This pressure difference generates lift, enabling flight. Aircraft control surfaces (ailerons, elevators, rudders) adjust aerodynamic forces to change attitude and trajectory.</p>
+            <div class="herb-tags">
+                <span>Technical Principles</span>
+                <span>Aerodynamics</span>
+            </div>
+            <a href="#flight-dynamics">View Simulation</a>
+        </div>
+
+        <!-- 航天名言：黄纬禄 -->
+        <div class="herb-card quote-card">
+            <h3>"If there is another life, I will still develop missiles..."</h3>
+            <p>- Huang Weilu, Missile Scientist</p>
+            <div class="herb-tags">
+                <span>Quotes</span>
+                <span>Two Bombs, One Satellite</span>
+            </div>
+            <a href="#pioneer-quotes">Explore Archive</a>
+        </div>
+
+        <!-- 语料库：传统航天精神 -->
+        <div class="herb-card corpus-card">
+            <h3>Traditional Aerospace Spirit</h3>
+            <p>Connotation: Self-reliance, hard work, strong cooperation, selfless dedication, rigorous attitude, courage to climb.
+            <br>Milestone: Shenzhou-5's 2003 launch made China the 3rd country to independently conduct manned spaceflight.</p>
+            <div class="herb-tags">
+                <span>Corpus</span>
+                <span>Spirit System</span>
+            </div>
+            <a href="corpus/spirit-report.pdf">Download</a>
+        </div>
+
+        <!-- 里程碑事件：北斗全球组网 -->
+        <div class="herb-card milestone-card">
+            <h3>June 23, 2020: Beidou-3 Global System Completed</h3>
+            <p>The 55th satellite launch finalized the Beidou constellation, enabling global navigation services. China became the 3rd country with an independent global satellite navigation system.</p>
+            <div class="herb-tags">
+                <span>Milestones</span>
+                <span>Navigation Technology</span>
+            </div>
+            <a href="#beidou-timeline">View Chronology</a>
+        </div>
+
+        <!-- 技术原理：惯性导航 -->
+        <div class="herb-card">
+            <h3>How do spacecraft navigate without GPS?</h3>
+            <p>Inertial navigation systems use gyroscopes and accelerometers to measure acceleration/angular velocity. Integration of these data provides velocity/position updates autonomously, though errors accumulate over time.</p>
+            <div class="herb-tags">
+                <span>Technical Principles</span>
+                <span>Navigation Systems</span>
+            </div>
+            <a href="#inertial-tech">Read Whitepaper</a>
+        </div>
+
+        <!-- 航天名言：钱学森 -->
+        <div class="herb-card quote-card">
+            <h3>"Aerospace expands the boundaries of human ambition."</h3>
+            <p>- Qian Xuesen, Father of China's Aerospace</p>
+            <div class="herb-tags">
+                <span>Quotes</span>
+                <span>Founding Figures</span>
+            </div>
+            <a href="#qian-xuesen">Biography</a>
+        </div>
+    </div>
+    <a href="corpus-index.html" class="view-more-btn">Browse Full Corpus</a>
+</section>
+
+
+<!-- 评论区 -->
+<section class="comments-section">
+    <h2>用户评论</h2>
+    <div class="comment-form">
+        <textarea id="comment-input" placeholder="请输入您的评论..."></textarea>
+        <div class="form-footer">
+            <span class="char-count">0/200</span>
+            <button id="submit-comment">发表评论</button>
+        </div>
+    </div>
+    <div id="comments-container">
+        <!-- 评论1 -->
+        <div class="comment">
+            <div class="comment-header">
+                <div class="comment-info">
+                    <div class="user-name">Aila（America）</div>
+                    <div class="rating-display">★★★★★</div>
+                </div>
+                <div class="comment-time">2025-01-15 14:30</div>
+            </div>
+            <p class="comment-content">After reading it, it was like a vivid epic of China's aerospace struggle presented before me. From the beginning of their entrepreneurial journey, the older generation of astronauts carried dreams and embarked on exploration journeys under difficult conditions. To the breakthroughs that have shaken the world time and time again, each stage carries a heavy historical memory. It made me deeply realize that the spirit of aerospace is inherited and developed in the relay of generation after generation, inspiring us not to forget our past and bravely shoulder new missions—Aila（America）</p>
+            <div class="comment-actions">
+                <button class="like-btn">
+                    <span class="like-icon">👍</span>
+                    <span class="like-count">12</span>
+                </button>
+                <button class="reply-btn">回复</button>
+            </div>
+        </div>
+
+        <!-- 评论2 -->
+        <div class="comment">
+            <div class="comment-header">
+                <div class="comment-info">
+                    <div class="user-name">中国政法大学 刘义婷</div>
+                    <div class="rating-display">★★★★★</div>
+                </div>
+                <div class="comment-time">2024-01-14 16:45</div>
+            </div>
+            <p class="comment-content">我深深被航空航天精神的强大力量深深触动。无论是“两弹一星”精神的无私奉献，还是载人航天精神的勇于攀登，都成为支撑中国航天不断前行的精神脊梁。在面对困难与挑战时，这种精神给予航天人坚定信念和无穷动力。它也启示着我们，在生活和工作中，只要拥有坚定的精神力量，就能克服一切艰难险阻。</p>
+            <div class="comment-actions">
+                <button class="like-btn">
+                    <span class="like-icon">👍</span>
+                    <span class="like-count">8</span>
+                </button>
+                <button class="reply-btn">回复</button>
+            </div>
+        </div>
+
+        <!-- 评论3 -->
+        <div class="comment">
+            <div class="comment-header">
+                <div class="comment-info">
+                    <div class="user-name">沈航国贸2302刘靓</div>
+                    <div class="rating-display">★★★★★</div>
+                </div>
+                <div class="comment-time">2024-01-14 16:45</div>
+            </div>
+            <p class="comment-content">网站呈现的中国航空航天成就，是国家综合实力提升的生动写照。航空航天事业作为国家战略发展的重要组成部分，其每一次进步都彰显着我国在科技、经济、国防等多方面的强大实力。它不仅增强了民族自豪感和凝聚力，更为国家的长远发展提供了坚实保障，让我们对祖国未来的发展充满信心。</p>
+            <div class="comment-actions">
+                <button class="like-btn">
+                    <span class="like-icon">👍</span>
+                    <span class="like-count">15</span>
+                </button>
+                <button class="reply-btn">回复</button>
+            </div>
+        </div>
+
+        <!-- 其他评论按此格式依次添加 -->
+        <!-- 评论4至14的HTML结构同上，根据内容替换user-name、comment-content等字段 -->
+    </div>
+</section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>联系我们</h3>
+                <p>电话：13478398261</p>
+                <p>邮箱：1132270325@qq.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>快速链接</h3>
+                <a href="#">关于我们</a>
+                <a href="#">使用条款</a>
+                <a href="#">隐私政策</a>
+            </div>
+            <div class="footer-section">
+                <h3>关注我们</h3>
+                <div class="social-links">
+                    <a href="#">微信</a>
+                    <a href="#">微博</a>
+                    <a href="#">抖音</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 星耀天际 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
